@@ -1,0 +1,109 @@
+[0.103s] Invoking command in '/home/wagnerxavier/ros2_ws/build/fr_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wagnerxavier/ros2_ws/build/fr_ros2 -- -j4 -l4
+[0.261s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/ROS_API.cpp.o[0m
+[0.274s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/state_feedback.cpp.o[0m
+[0.275s] [ 62%] Built target srv_test_client
+[1.012s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:297:114:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+[1.012s]   297 | void ROS_API::_ParseROSCommandData_callback(const std::shared_ptr<frhal_msgs::srv::ROSCmdInterface::Request> req,\
+[1.012s]       |                                                                                                                   
+[3.853s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In constructor ‘[01m[KROS_API::ROS_API(std::string)[m[K’:
+[3.853s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:52:56:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ changes value from ‘[01m[K30000[m[K’ to ‘[01m[K48[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[3.853s]    52 |     this->declare_parameter<uint8_t>("gripper_maxtime",[01;35m[K30000[m[K);
+[3.853s]       |                                                        [01;35m[K^~~~~[m[K
+[3.910s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::_def_jnt_position(std::string)[m[K’:
+[3.911s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:350:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.912s]   350 |         if([01;35m[Kidx > _cmd_jnt_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错，因为序列容器中间无法留空
+[3.912s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.912s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:353:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.912s]   353 |         }else if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K){//如果是小于等于当前的容量，那么就是点位信息覆盖
+[3.912s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.913s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:358:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.913s]   358 |         }else if([01;35m[Kidx == _cmd_jnt_pos_list.size()+1[m[K){//添加元素
+[3.913s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.916s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::_def_cart_position(std::string)[m[K’:
+[3.916s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:393:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.916s]   393 |         if([01;35m[Kidx > _cmd_cart_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错，因为序列容器中间无法留空
+[3.916s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.917s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:396:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.917s]   396 |         }else if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K){//如果是小于等于当前的容量，那么就是点位信息覆盖
+[3.917s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.919s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:403:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.919s]   403 |         }else if([01;35m[Kidx == _cmd_cart_pos_list.size()+1[m[K){//添加元素
+[3.919s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.924s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kstd::string ROS_API::_get_variable(std::string)[m[K’:
+[3.924s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:426:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.924s]   426 |             if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K && idx > 0){
+[3.924s]       |                [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.926s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:440:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.926s]   440 |                 if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K && idx > 0){
+[3.926s]       |                    [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.940s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::MoveJ(std::string)[m[K’:
+[3.940s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:700:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.941s]   700 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[3.941s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.944s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:742:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.945s]   742 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[3.945s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.952s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::MoveL(std::string)[m[K’:
+[3.952s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:818:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.953s]   818 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[3.953s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.956s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:854:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.956s]   854 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[3.956s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.964s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::MoveC(std::string)[m[K’:
+[3.965s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:930:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.965s]   930 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K || index2 > _cmd_jnt_pos_list.size()){
+[3.965s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.965s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:930:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.965s]   930 |         if(index > _cmd_jnt_pos_list.size() || [01;35m[Kindex2 > _cmd_jnt_pos_list.size()[m[K){
+[3.965s]       |                                                [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.971s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:986:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.971s]   986 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K || index2 > _cmd_cart_pos_list.size()){
+[3.971s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.972s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:986:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.972s]   986 |         if(index > _cmd_cart_pos_list.size() || [01;35m[Kindex2 > _cmd_cart_pos_list.size()[m[K){
+[3.972s]       |                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.992s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::Circle(std::string)[m[K’:
+[3.992s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1057:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.992s]  1057 | int ROS_API::Circle([01;35m[Kstd::string para[m[K){
+[3.992s]       |                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.993s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::SplinePTP(std::string)[m[K’:
+[3.993s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1109:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.993s]  1109 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[3.993s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.993s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::NewSplinePoint(std::string)[m[K’:
+[3.993s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1175:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.993s]  1175 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[3.993s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.382s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::_send_data_factory_callback(std::string)[m[K’:
+[5.382s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:261:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[5.382s]   261 | [01;35m[K}[m[K
+[5.382s]       | [01;35m[K^[m[K
+[5.523s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kstd::string ROS_API::_get_variable(std::string)[m[K’:
+[5.525s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:460:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[5.525s]   460 | [01;35m[K}[m[K
+[5.525s]       | [01;35m[K^[m[K
+[10.048s] [ 75%] [32m[1mLinking CXX executable ros2_cmd_server[0m
+[10.953s] [100%] Built target ros2_cmd_server
+[11.025s] Invoked command in '/home/wagnerxavier/ros2_ws/build/fr_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wagnerxavier/ros2_ws/build/fr_ros2 -- -j4 -l4
+[11.211s] Invoking command in '/home/wagnerxavier/ros2_ws/build/fr_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wagnerxavier/ros2_ws/build/fr_ros2
+[11.228s] -- Install configuration: ""
+[11.228s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/ros2_cmd_server
+[11.233s] -- Set runtime path of "/home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/ros2_cmd_server" to ""
+[11.233s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/srv_test_client
+[11.240s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/package_run_dependencies/fr_ros2
+[11.241s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/parent_prefix_path/fr_ros2
+[11.249s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/ament_prefix_path.sh
+[11.249s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/ament_prefix_path.dsv
+[11.250s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/path.sh
+[11.250s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/path.dsv
+[11.250s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.bash
+[11.250s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.sh
+[11.250s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.zsh
+[11.250s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.dsv
+[11.250s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/package.dsv
+[11.251s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/packages/fr_ros2
+[11.255s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/cmake/fr_ros2Config.cmake
+[11.255s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/cmake/fr_ros2Config-version.cmake
+[11.260s] -- Up-to-date: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/package.xml
+[11.264s] Invoked command in '/home/wagnerxavier/ros2_ws/build/fr_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wagnerxavier/ros2_ws/build/fr_ros2

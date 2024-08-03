@@ -1,0 +1,628 @@
+[0.000000] (-) TimerEvent: {}
+[0.001575] (frhal_msgs) JobQueued: {'identifier': 'frhal_msgs', 'dependencies': OrderedDict()}
+[0.001743] (fr_ros2) JobQueued: {'identifier': 'fr_ros2', 'dependencies': OrderedDict([('frhal_msgs', '/home/wagnerxavier/ros2_ws/install/frhal_msgs')])}
+[0.001923] (frhal_msgs) JobStarted: {'identifier': 'frhal_msgs'}
+[0.014879] (frhal_msgs) JobProgress: {'identifier': 'frhal_msgs', 'progress': 'cmake'}
+[0.014974] (frhal_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/wagnerxavier/ros2_ws/src/frcobot_ros2/frhal_msgs', '-DCMAKE_INSTALL_PREFIX=/home/wagnerxavier/ros2_ws/install/frhal_msgs'], 'cwd': '/home/wagnerxavier/ros2_ws/build/frhal_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wagnerxavier'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wagnerxavier'), ('OLDPWD', '/home/wagnerxavier/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '6136'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wagnerxavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wagnerxavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/6116,unix/Ubuntu22:/tmp/.ICE-unix/6116'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35066881_49d8_40f5_8969_14575698fc09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTVDR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wagnerxavier/ros2_ws/build/frhal_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.094945] (-) TimerEvent: {}
+[0.195454] (-) TimerEvent: {}
+[0.297650] (-) TimerEvent: {}
+[0.398570] (-) TimerEvent: {}
+[0.499793] (-) TimerEvent: {}
+[0.602246] (-) TimerEvent: {}
+[0.696641] (frhal_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.705226] (-) TimerEvent: {}
+[0.806363] (-) TimerEvent: {}
+[0.907847] (-) TimerEvent: {}
+[1.009180] (-) TimerEvent: {}
+[1.055348] (frhal_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.110307] (-) TimerEvent: {}
+[1.117762] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.211040] (-) TimerEvent: {}
+[1.300353] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.311893] (frhal_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.312080] (-) TimerEvent: {}
+[1.313682] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.315428] (frhal_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.323301] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.412381] (-) TimerEvent: {}
+[1.507616] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.512809] (-) TimerEvent: {}
+[1.518822] (frhal_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.519161] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.519906] (frhal_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.523148] (frhal_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.614321] (-) TimerEvent: {}
+[1.716578] (-) TimerEvent: {}
+[1.779633] (frhal_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.845619] (-) TimerEvent: {}
+[1.910771] (frhal_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.914443] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.921400] (frhal_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.946509] (-) TimerEvent: {}
+[1.974840] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.050308] (-) TimerEvent: {}
+[2.151850] (-) TimerEvent: {}
+[2.254648] (-) TimerEvent: {}
+[2.375117] (-) TimerEvent: {}
+[2.419390] (frhal_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.477789] (-) TimerEvent: {}
+[2.578278] (-) TimerEvent: {}
+[2.679045] (-) TimerEvent: {}
+[2.684494] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.784893] (-) TimerEvent: {}
+[2.885662] (-) TimerEvent: {}
+[2.986445] (-) TimerEvent: {}
+[3.043570] (frhal_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.075115] (frhal_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.076764] (frhal_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.088091] (-) TimerEvent: {}
+[3.114063] (frhal_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.114290] (frhal_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.114380] (frhal_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.114461] (frhal_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.149055] (frhal_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.189307] (-) TimerEvent: {}
+[3.192272] (frhal_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.216743] (frhal_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.219971] (frhal_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.223448] (frhal_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.281893] (frhal_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.286108] (frhal_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/wagnerxavier/ros2_ws/build/frhal_msgs\n'}
+[3.292932] (frhal_msgs) CommandEnded: {'returncode': 0}
+[3.293964] (-) TimerEvent: {}
+[3.297326] (frhal_msgs) JobProgress: {'identifier': 'frhal_msgs', 'progress': 'build'}
+[3.297379] (frhal_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wagnerxavier/ros2_ws/build/frhal_msgs', '--', '-j4', '-l4'], 'cwd': '/home/wagnerxavier/ros2_ws/build/frhal_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wagnerxavier'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wagnerxavier'), ('OLDPWD', '/home/wagnerxavier/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '6136'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wagnerxavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wagnerxavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/6116,unix/Ubuntu22:/tmp/.ICE-unix/6116'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35066881_49d8_40f5_8969_14575698fc09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTVDR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wagnerxavier/ros2_ws/build/frhal_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.394282] (-) TimerEvent: {}
+[3.395202] (frhal_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.464666] (frhal_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.464957] (frhal_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_frhal_msgs\n'}
+[3.543229] (-) TimerEvent: {}
+[3.718840] (-) TimerEvent: {}
+[3.822614] (-) TimerEvent: {}
+[3.884020] (frhal_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.885385] (frhal_msgs) StdoutLine: {'line': b'creating frhal_msgs.egg-info\n'}
+[3.885548] (frhal_msgs) StdoutLine: {'line': b'writing frhal_msgs.egg-info/PKG-INFO\n'}
+[3.885814] (frhal_msgs) StdoutLine: {'line': b'writing dependency_links to frhal_msgs.egg-info/dependency_links.txt\n'}
+[3.886100] (frhal_msgs) StdoutLine: {'line': b'writing top-level names to frhal_msgs.egg-info/top_level.txt\n'}
+[3.886384] (frhal_msgs) StdoutLine: {'line': b"writing manifest file 'frhal_msgs.egg-info/SOURCES.txt'\n"}
+[3.889508] (frhal_msgs) StdoutLine: {'line': b"reading manifest file 'frhal_msgs.egg-info/SOURCES.txt'\n"}
+[3.890290] (frhal_msgs) StdoutLine: {'line': b"writing manifest file 'frhal_msgs.egg-info/SOURCES.txt'\n"}
+[3.922753] (-) TimerEvent: {}
+[3.937849] (frhal_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_frhal_msgs_egg\n'}
+[4.024798] (-) TimerEvent: {}
+[4.125727] (-) TimerEvent: {}
+[4.197309] (frhal_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_c.dir/rosidl_generator_c/frhal_msgs/srv/detail/ros_cmd_interface__functions.c.o\x1b[0m\n'}
+[4.203756] (frhal_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_c.dir/rosidl_generator_c/frhal_msgs/msg/detail/fr_state__functions.c.o\x1b[0m\n'}
+[4.225476] (frhal_msgs) StdoutLine: {'line': b'[ 10%] Built target frhal_msgs__cpp\n'}
+[4.226339] (-) TimerEvent: {}
+[4.277053] (frhal_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.301498] (frhal_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.399283] (-) TimerEvent: {}
+[4.442207] (frhal_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.459957] (frhal_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libfrhal_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.838534] (-) TimerEvent: {}
+[4.936804] (frhal_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/frhal_msgs/srv/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[4.938971] (frhal_msgs) StdoutLine: {'line': b'[ 23%] Built target frhal_msgs__rosidl_generator_c\n'}
+[4.939242] (-) TimerEvent: {}
+[4.966642] (frhal_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.041316] (-) TimerEvent: {}
+[5.044169] (frhal_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/frhal_msgs/srv/detail/dds_fastrtps/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[5.132221] (frhal_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/frhal_msgs/srv/detail/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[5.142376] (-) TimerEvent: {}
+[5.243582] (-) TimerEvent: {}
+[5.349988] (-) TimerEvent: {}
+[5.452595] (-) TimerEvent: {}
+[5.658613] (-) TimerEvent: {}
+[5.798289] (frhal_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/frhal_msgs/msg/fr_state__type_support.cpp.o\x1b[0m\n'}
+[5.798837] (-) TimerEvent: {}
+[5.863878] (frhal_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/frhal_msgs/msg/detail/fr_state__type_support.cpp.o\x1b[0m\n'}
+[5.899686] (frhal_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/frhal_msgs/srv/detail/ros_cmd_interface__type_support_c.cpp.o\x1b[0m\n'}
+[5.899962] (-) TimerEvent: {}
+[5.930014] (frhal_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/frhal_msgs/msg/detail/dds_fastrtps/fr_state__type_support.cpp.o\x1b[0m\n'}
+[6.230866] (frhal_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.231148] (-) TimerEvent: {}
+[6.327375] (frhal_msgs) StdoutLine: {'line': b'[ 43%] Built target frhal_msgs__rosidl_typesupport_cpp\n'}
+[6.339073] (-) TimerEvent: {}
+[6.363301] (frhal_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.493366] (-) TimerEvent: {}
+[6.585602] (frhal_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/frhal_msgs/msg/detail/fr_state__type_support_c.cpp.o\x1b[0m\n'}
+[6.594274] (-) TimerEvent: {}
+[6.601918] (frhal_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.694813] (-) TimerEvent: {}
+[6.723873] (frhal_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.797132] (-) TimerEvent: {}
+[6.816389] (frhal_msgs) StdoutLine: {'line': b'[ 53%] Built target frhal_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.842057] (frhal_msgs) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.912529] (-) TimerEvent: {}
+[6.954367] (frhal_msgs) StdoutLine: {'line': b'[ 56%] Built target frhal_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.091212] (-) TimerEvent: {}
+[7.095211] (frhal_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/frhal_msgs/msg/detail/fr_state__type_support.c.o\x1b[0m\n'}
+[7.101879] (frhal_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/frhal_msgs/srv/detail/ros_cmd_interface__type_support.c.o\x1b[0m\n'}
+[7.179961] (frhal_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libfrhal_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.200398] (-) TimerEvent: {}
+[7.252088] (frhal_msgs) StdoutLine: {'line': b'[ 64%] Built target frhal_msgs__rosidl_typesupport_introspection_c\n'}
+[7.263497] (frhal_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.307992] (-) TimerEvent: {}
+[7.407004] (frhal_msgs) StdoutLine: {'line': b'[ 66%] Built target frhal_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.408269] (-) TimerEvent: {}
+[7.458251] (frhal_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/frhal_msgs/msg/fr_state__type_support.cpp.o\x1b[0m\n'}
+[7.458461] (frhal_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/frhal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/frhal_msgs/srv/ros_cmd_interface__type_support.cpp.o\x1b[0m\n'}
+[7.508914] (-) TimerEvent: {}
+[7.527539] (frhal_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libfrhal_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.609332] (-) TimerEvent: {}
+[7.614594] (frhal_msgs) StdoutLine: {'line': b'[ 74%] Built target frhal_msgs__rosidl_typesupport_c\n'}
+[7.669294] (frhal_msgs) StdoutLine: {'line': b'[ 74%] Built target frhal_msgs\n'}
+[7.714345] (-) TimerEvent: {}
+[7.718763] (frhal_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.818166] (-) TimerEvent: {}
+[7.920620] (-) TimerEvent: {}
+[8.022156] (-) TimerEvent: {}
+[8.123984] (-) TimerEvent: {}
+[8.228026] (-) TimerEvent: {}
+[8.337609] (-) TimerEvent: {}
+[8.438958] (-) TimerEvent: {}
+[8.541781] (-) TimerEvent: {}
+[8.642608] (frhal_msgs) StdoutLine: {'line': b'[ 76%] Built target frhal_msgs__py\n'}
+[8.642952] (-) TimerEvent: {}
+[8.692515] (frhal_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_py.dir/rosidl_generator_py/frhal_msgs/srv/_ros_cmd_interface_s.c.o\x1b[0m\n'}
+[8.699148] (frhal_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_generator_py.dir/rosidl_generator_py/frhal_msgs/msg/_fr_state_s.c.o\x1b[0m\n'}
+[8.743758] (-) TimerEvent: {}
+[8.844751] (-) TimerEvent: {}
+[8.946066] (-) TimerEvent: {}
+[9.056408] (-) TimerEvent: {}
+[9.087341] (frhal_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/libfrhal_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.157276] (-) TimerEvent: {}
+[9.159740] (frhal_msgs) StdoutLine: {'line': b'[ 84%] Built target frhal_msgs__rosidl_generator_py\n'}
+[9.211176] (frhal_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.216476] (frhal_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.219921] (frhal_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/frhal_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.343092] (-) TimerEvent: {}
+[9.414138] (frhal_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/frhal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.444194] (-) TimerEvent: {}
+[9.474616] (frhal_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/frhal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.500187] (frhal_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/frhal_msgs/frhal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.522410] (frhal_msgs) StdoutLine: {'line': b'[100%] Built target frhal_msgs__rosidl_typesupport_c__pyext\n'}
+[9.544861] (-) TimerEvent: {}
+[9.562904] (frhal_msgs) StdoutLine: {'line': b'[100%] Built target frhal_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.583943] (frhal_msgs) StdoutLine: {'line': b'[100%] Built target frhal_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.634497] (frhal_msgs) CommandEnded: {'returncode': 0}
+[9.645376] (-) TimerEvent: {}
+[9.746372] (-) TimerEvent: {}
+[9.847288] (-) TimerEvent: {}
+[9.949473] (-) TimerEvent: {}
+[10.032037] (frhal_msgs) JobProgress: {'identifier': 'frhal_msgs', 'progress': 'install'}
+[10.048334] (frhal_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wagnerxavier/ros2_ws/build/frhal_msgs'], 'cwd': '/home/wagnerxavier/ros2_ws/build/frhal_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wagnerxavier'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wagnerxavier'), ('OLDPWD', '/home/wagnerxavier/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '6136'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wagnerxavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wagnerxavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/6116,unix/Ubuntu22:/tmp/.ICE-unix/6116'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35066881_49d8_40f5_8969_14575698fc09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTVDR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wagnerxavier/ros2_ws/build/frhal_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.049867] (-) TimerEvent: {}
+[10.062704] (frhal_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.064392] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/ament_index/resource_index/rosidl_interfaces/frhal_msgs\n'}
+[10.064507] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs\n'}
+[10.064649] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg\n'}
+[10.064961] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.065266] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/fr_state.h\n'}
+[10.065355] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail\n'}
+[10.065423] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__type_support.h\n'}
+[10.065573] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__functions.h\n'}
+[10.065716] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__struct.h\n'}
+[10.065931] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__functions.c\n'}
+[10.066003] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv\n'}
+[10.066066] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/ros_cmd_interface.h\n'}
+[10.066126] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail\n'}
+[10.066258] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__functions.c\n'}
+[10.066472] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__struct.h\n'}
+[10.066639] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__functions.h\n'}
+[10.066786] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__type_support.h\n'}
+[10.066944] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/library_path.sh\n'}
+[10.067207] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/library_path.dsv\n'}
+[10.067291] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_generator_c.so\n'}
+[10.067437] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_generator_c.so" to ""\n'}
+[10.067505] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs\n'}
+[10.067566] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg\n'}
+[10.067626] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.067909] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail\n'}
+[10.067998] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__rosidl_typesupport_fastrtps_c.h\n'}
+[10.068060] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv\n'}
+[10.068121] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail\n'}
+[10.068180] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__rosidl_typesupport_fastrtps_c.h\n'}
+[10.068241] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.068881] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.068970] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs\n'}
+[10.069034] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg\n'}
+[10.069180] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail\n'}
+[10.069338] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__rosidl_typesupport_introspection_c.h\n'}
+[10.070378] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__type_support.c\n'}
+[10.070509] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.070579] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv\n'}
+[10.070647] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail\n'}
+[10.070839] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__type_support.c\n'}
+[10.071004] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__rosidl_typesupport_introspection_c.h\n'}
+[10.071215] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.071288] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.071515] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_c.so\n'}
+[10.071702] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_c.so" to ""\n'}
+[10.072206] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs\n'}
+[10.072460] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg\n'}
+[10.072550] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/fr_state.hpp\n'}
+[10.072615] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail\n'}
+[10.073100] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__traits.hpp\n'}
+[10.073178] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__struct.hpp\n'}
+[10.073241] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__builder.hpp\n'}
+[10.074011] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv\n'}
+[10.074243] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/ros_cmd_interface.hpp\n'}
+[10.075254] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail\n'}
+[10.075343] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__builder.hpp\n'}
+[10.075407] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__struct.hpp\n'}
+[10.075483] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__traits.hpp\n'}
+[10.075543] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs\n'}
+[10.075699] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg\n'}
+[10.075848] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.075918] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail\n'}
+[10.075980] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/dds_fastrtps\n'}
+[10.076041] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.076195] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv\n'}
+[10.076353] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail\n'}
+[10.076500] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.078162] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/dds_fastrtps\n'}
+[10.078548] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.082006] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.082224] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs\n'}
+[10.082301] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg\n'}
+[10.082368] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail\n'}
+[10.082469] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.082541] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/msg/detail/fr_state__type_support.cpp\n'}
+[10.082603] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv\n'}
+[10.082876] (frhal_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail\n'}
+[10.082947] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__type_support.cpp\n'}
+[10.083024] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/include/frhal_msgs/frhal_msgs/srv/detail/ros_cmd_interface__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.083096] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.083159] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.083233] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_cpp.so\n'}
+[10.083307] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[10.083366] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/pythonpath.sh\n'}
+[10.084237] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/pythonpath.dsv\n'}
+[10.084326] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs-0.0.0-py3.10.egg-info\n'}
+[10.084440] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.084529] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.084596] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.084674] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.084764] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs\n'}
+[10.084841] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.084930] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/msg\n'}
+[10.085016] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/msg/_fr_state_s.c\n'}
+[10.085108] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/msg/__init__.py\n'}
+[10.085208] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/msg/_fr_state.py\n'}
+[10.096241] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/libfrhal_msgs__rosidl_generator_py.so\n'}
+[10.096409] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/__init__.py\n'}
+[10.096491] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.096559] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/srv\n'}
+[10.096640] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/srv/__init__.py\n'}
+[10.096703] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/srv/_ros_cmd_interface_s.c\n'}
+[10.096765] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/srv/_ros_cmd_interface.py\n'}
+[10.096826] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[10.096887] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.096950] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.097011] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/_frhal_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.158848] (-) TimerEvent: {}
+[10.159154] (frhal_msgs) StdoutLine: {'line': b"Listing '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs'...\n"}
+[10.159299] (frhal_msgs) StdoutLine: {'line': b"Compiling '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/__init__.py'...\n"}
+[10.159381] (frhal_msgs) StdoutLine: {'line': b"Listing '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/msg'...\n"}
+[10.159449] (frhal_msgs) StdoutLine: {'line': b"Compiling '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/msg/__init__.py'...\n"}
+[10.159535] (frhal_msgs) StdoutLine: {'line': b"Compiling '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/msg/_fr_state.py'...\n"}
+[10.159618] (frhal_msgs) StdoutLine: {'line': b"Listing '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/srv'...\n"}
+[10.159682] (frhal_msgs) StdoutLine: {'line': b"Compiling '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/srv/__init__.py'...\n"}
+[10.159744] (frhal_msgs) StdoutLine: {'line': b"Compiling '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/srv/_ros_cmd_interface.py'...\n"}
+[10.165825] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.166467] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.166861] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.167535] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.167939] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.168491] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages/frhal_msgs/frhal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.168748] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_generator_py.so\n'}
+[10.169277] (frhal_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib/libfrhal_msgs__rosidl_generator_py.so" to ""\n'}
+[10.169891] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/srv/ROSCmdInterface.idl\n'}
+[10.170246] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/msg/FRState.idl\n'}
+[10.170584] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/srv/ROSCmdInterface.srv\n'}
+[10.170890] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/srv/ROSCmdInterface_Request.msg\n'}
+[10.171191] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/srv/ROSCmdInterface_Response.msg\n'}
+[10.171526] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/msg/FRState.msg\n'}
+[10.171878] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/ament_index/resource_index/package_run_dependencies/frhal_msgs\n'}
+[10.172263] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/ament_index/resource_index/parent_prefix_path/frhal_msgs\n'}
+[10.172762] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/ament_prefix_path.sh\n'}
+[10.173694] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/ament_prefix_path.dsv\n'}
+[10.174764] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/path.sh\n'}
+[10.175121] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/environment/path.dsv\n'}
+[10.175467] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/local_setup.bash\n'}
+[10.175771] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/local_setup.sh\n'}
+[10.176075] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/local_setup.zsh\n'}
+[10.176499] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/local_setup.dsv\n'}
+[10.176798] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/package.dsv\n'}
+[10.177212] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/ament_index/resource_index/packages/frhal_msgs\n'}
+[10.177885] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_generator_cExport.cmake\n'}
+[10.178236] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.178563] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.178875] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.179227] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.179659] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.179981] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_cExport.cmake\n'}
+[10.180657] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.181059] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_generator_cppExport.cmake\n'}
+[10.181402] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.181915] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.182661] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.182993] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.183347] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.183687] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.184064] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_generator_pyExport.cmake\n'}
+[10.184385] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/export_frhal_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.184691] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.185372] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.185946] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.186508] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.186841] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.187380] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.187807] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.195901] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgsConfig.cmake\n'}
+[10.196302] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake/frhal_msgsConfig-version.cmake\n'}
+[10.196516] (frhal_msgs) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/package.xml\n'}
+[10.199997] (frhal_msgs) CommandEnded: {'returncode': 0}
+[10.259451] (-) TimerEvent: {}
+[10.361682] (-) TimerEvent: {}
+[10.462374] (-) TimerEvent: {}
+[10.563346] (-) TimerEvent: {}
+[10.645867] (frhal_msgs) JobEnded: {'identifier': 'frhal_msgs', 'rc': 0}
+[10.649492] (fr_ros2) JobStarted: {'identifier': 'fr_ros2'}
+[10.663966] (-) TimerEvent: {}
+[10.677517] (fr_ros2) JobProgress: {'identifier': 'fr_ros2', 'progress': 'cmake'}
+[10.677639] (fr_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2', '-DCMAKE_INSTALL_PREFIX=/home/wagnerxavier/ros2_ws/install/fr_ros2'], 'cwd': '/home/wagnerxavier/ros2_ws/build/fr_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wagnerxavier'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wagnerxavier'), ('OLDPWD', '/home/wagnerxavier/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '6136'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wagnerxavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wagnerxavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/6116,unix/Ubuntu22:/tmp/.ICE-unix/6116'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35066881_49d8_40f5_8969_14575698fc09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTVDR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wagnerxavier/ros2_ws/build/fr_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble')]), 'shell': False}
+[10.766978] (-) TimerEvent: {}
+[10.794842] (fr_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[10.867521] (-) TimerEvent: {}
+[10.889161] (fr_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[10.909559] (fr_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.969130] (-) TimerEvent: {}
+[11.045427] (fr_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.055512] (fr_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.056458] (fr_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.056568] (fr_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.060577] (fr_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.069793] (-) TimerEvent: {}
+[11.170199] (-) TimerEvent: {}
+[11.233380] (fr_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.241692] (fr_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.242476] (fr_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.242937] (fr_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.245100] (fr_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[11.271060] (-) TimerEvent: {}
+[11.371693] (-) TimerEvent: {}
+[11.482626] (-) TimerEvent: {}
+[11.486246] (fr_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[11.584550] (-) TimerEvent: {}
+[11.616342] (fr_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[11.683698] (fr_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.685308] (-) TimerEvent: {}
+[11.691578] (fr_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.701594] (fr_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.728720] (fr_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.756432] (fr_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.786583] (-) TimerEvent: {}
+[11.875130] (fr_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.881945] (fr_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.888497] (-) TimerEvent: {}
+[11.989682] (-) TimerEvent: {}
+[12.088754] (fr_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.090196] (-) TimerEvent: {}
+[12.124736] (fr_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.191005] (-) TimerEvent: {}
+[12.191901] (fr_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.210331] (fr_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.291258] (-) TimerEvent: {}
+[12.399867] (fr_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.400204] (-) TimerEvent: {}
+[12.400491] (fr_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.500650] (-) TimerEvent: {}
+[12.544941] (fr_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.561933] (fr_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.601154] (-) TimerEvent: {}
+[12.728302] (-) TimerEvent: {}
+[12.787168] (fr_ros2) StdoutLine: {'line': b'-- Found frhal_msgs: 0.0.0 (/home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake)\n'}
+[12.829456] (fr_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.829889] (-) TimerEvent: {}
+[12.935672] (-) TimerEvent: {}
+[12.937602] (fr_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.937962] (fr_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/include/fr_ros2;/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/include\n'}
+[12.938047] (fr_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.939592] (fr_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.942313] (fr_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.942495] (fr_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.942991] (fr_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.944010] (fr_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.960814] (fr_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[12.963257] (fr_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/wagnerxavier/ros2_ws/build/fr_ros2\n'}
+[12.973702] (fr_ros2) CommandEnded: {'returncode': 0}
+[12.977212] (fr_ros2) JobProgress: {'identifier': 'fr_ros2', 'progress': 'build'}
+[12.977807] (fr_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wagnerxavier/ros2_ws/build/fr_ros2', '--', '-j4', '-l4'], 'cwd': '/home/wagnerxavier/ros2_ws/build/fr_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wagnerxavier'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wagnerxavier'), ('OLDPWD', '/home/wagnerxavier/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '6136'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wagnerxavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wagnerxavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/6116,unix/Ubuntu22:/tmp/.ICE-unix/6116'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35066881_49d8_40f5_8969_14575698fc09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTVDR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wagnerxavier/ros2_ws/build/fr_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble')]), 'shell': False}
+[13.036437] (-) TimerEvent: {}
+[13.084592] (fr_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/main.cpp.o\x1b[0m\n'}
+[13.084847] (fr_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/global_val.cpp.o\x1b[0m\n'}
+[13.096734] (fr_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/srv_test_client.cpp.o\x1b[0m\n'}
+[13.099287] (fr_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/ROS_API.cpp.o\x1b[0m\n'}
+[13.148504] (-) TimerEvent: {}
+[13.252004] (-) TimerEvent: {}
+[13.380194] (-) TimerEvent: {}
+[13.483836] (-) TimerEvent: {}
+[13.657852] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:297:114:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kbackslash and newline separated by space\n'}
+[13.658046] (-) TimerEvent: {}
+[13.658260] (fr_ros2) StderrLine: {'line': b'  297 | ndData_callback(const std::shared_ptr<frhal_msgs::srv::ROSCmdInterface::Request> req,\\\n'}
+[13.658358] (fr_ros2) StderrLine: {'line': b'      |                                                                                       \n'}
+[13.658426] (fr_ros2) StderrLine: {'line': b'\n'}
+[13.763273] (-) TimerEvent: {}
+[13.921802] (-) TimerEvent: {}
+[13.976627] (fr_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/main.cpp.o\x1b[0m\n'}
+[14.440052] (-) TimerEvent: {}
+[14.599405] (-) TimerEvent: {}
+[14.798354] (-) TimerEvent: {}
+[15.025394] (-) TimerEvent: {}
+[15.136752] (-) TimerEvent: {}
+[15.306183] (-) TimerEvent: {}
+[15.699142] (-) TimerEvent: {}
+[15.812708] (-) TimerEvent: {}
+[16.906335] (-) TimerEvent: {}
+[17.336062] (-) TimerEvent: {}
+[17.760161] (-) TimerEvent: {}
+[17.867636] (-) TimerEvent: {}
+[18.271489] (-) TimerEvent: {}
+[18.384386] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KROS_API::ROS_API(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.384606] (-) TimerEvent: {}
+[18.384832] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:52:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunsigned conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K30000\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K48\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.388087] (fr_ros2) StderrLine: {'line': b'   52 |     this->declare_parameter<uint8_t>("gripper_maxtime",\x1b[01;35m\x1b[K30000\x1b[m\x1b[K);\n'}
+[18.396828] (fr_ros2) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[18.471608] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::_def_jnt_position(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.471885] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:350:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.472096] (fr_ros2) StderrLine: {'line': b'  350 |         if(\x1b[01;35m\x1b[Kidx > _cmd_jnt_pos_list.size()+1\x1b[m\x1b[K || idx <= 0){//\xe5\xa6\x82\xe6\x9e\x9c\xe5\xa4\xa7\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe5\xae\xb9\xe5\x99\xa8\xe6\x9c\x80\xe5\xa4\xa7\xe5\x80\xbc+1,\xe9\x82\xa3\xe4\xb9\x88\xe8\xa6\x81\xe6\x8a\xa5\xe9\x94\x99\xef\xbc\x8c\xe5\x9b\xa0\xe4\xb8\xba\xe5\xba\x8f\xe5\x88\x97\xe5\xae\xb9\xe5\x99\xa8\xe4\xb8\xad\xe9\x97\xb4\xe6\x97\xa0\xe6\xb3\x95\xe7\x95\x99\xe7\xa9\xba\n'}
+[18.472281] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.472789] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:353:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.472893] (fr_ros2) StderrLine: {'line': b'  353 |         }else if(\x1b[01;35m\x1b[Kidx <= _cmd_jnt_pos_list.size()\x1b[m\x1b[K){//\xe5\xa6\x82\xe6\x9e\x9c\xe6\x98\xaf\xe5\xb0\x8f\xe4\xba\x8e\xe7\xad\x89\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe7\x9a\x84\xe5\xae\xb9\xe9\x87\x8f\xef\xbc\x8c\xe9\x82\xa3\xe4\xb9\x88\xe5\xb0\xb1\xe6\x98\xaf\xe7\x82\xb9\xe4\xbd\x8d\xe4\xbf\xa1\xe6\x81\xaf\xe8\xa6\x86\xe7\x9b\x96\n'}
+[18.473064] (fr_ros2) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.473235] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:358:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.473366] (fr_ros2) StderrLine: {'line': b'  358 |         }else if(\x1b[01;35m\x1b[Kidx == _cmd_jnt_pos_list.size()+1\x1b[m\x1b[K){//\xe6\xb7\xbb\xe5\x8a\xa0\xe5\x85\x83\xe7\xb4\xa0\n'}
+[18.473561] (fr_ros2) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.476794] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::_def_cart_position(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.477012] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:393:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.477187] (fr_ros2) StderrLine: {'line': b'  393 |         if(\x1b[01;35m\x1b[Kidx > _cmd_cart_pos_list.size()+1\x1b[m\x1b[K || idx <= 0){//\xe5\xa6\x82\xe6\x9e\x9c\xe5\xa4\xa7\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe5\xae\xb9\xe5\x99\xa8\xe6\x9c\x80\xe5\xa4\xa7\xe5\x80\xbc+1,\xe9\x82\xa3\xe4\xb9\x88\xe8\xa6\x81\xe6\x8a\xa5\xe9\x94\x99\xef\xbc\x8c\xe5\x9b\xa0\xe4\xb8\xba\xe5\xba\x8f\xe5\x88\x97\xe5\xae\xb9\xe5\x99\xa8\xe4\xb8\xad\xe9\x97\xb4\xe6\x97\xa0\xe6\xb3\x95\xe7\x95\x99\xe7\xa9\xba\n'}
+[18.477367] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.477942] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:396:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.478064] (fr_ros2) StderrLine: {'line': b'  396 |         }else if(\x1b[01;35m\x1b[Kidx <= _cmd_cart_pos_list.size()\x1b[m\x1b[K){//\xe5\xa6\x82\xe6\x9e\x9c\xe6\x98\xaf\xe5\xb0\x8f\xe4\xba\x8e\xe7\xad\x89\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe7\x9a\x84\xe5\xae\xb9\xe9\x87\x8f\xef\xbc\x8c\xe9\x82\xa3\xe4\xb9\x88\xe5\xb0\xb1\xe6\x98\xaf\xe7\x82\xb9\xe4\xbd\x8d\xe4\xbf\xa1\xe6\x81\xaf\xe8\xa6\x86\xe7\x9b\x96\n'}
+[18.478241] (fr_ros2) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.478681] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:403:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.478798] (fr_ros2) StderrLine: {'line': b'  403 |         }else if(\x1b[01;35m\x1b[Kidx == _cmd_cart_pos_list.size()+1\x1b[m\x1b[K){//\xe6\xb7\xbb\xe5\x8a\xa0\xe5\x85\x83\xe7\xb4\xa0\n'}
+[18.478975] (fr_ros2) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.481838] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string ROS_API::_get_variable(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.482148] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:426:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.482253] (fr_ros2) StderrLine: {'line': b'  426 |             if(\x1b[01;35m\x1b[Kidx <= _cmd_jnt_pos_list.size()\x1b[m\x1b[K && idx > 0){\n'}
+[18.482323] (fr_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.484554] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:440:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.484831] (-) TimerEvent: {}
+[18.485113] (fr_ros2) StderrLine: {'line': b'  440 |                 if(\x1b[01;35m\x1b[Kidx <= _cmd_cart_pos_list.size()\x1b[m\x1b[K && idx > 0){\n'}
+[18.485230] (fr_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.501109] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::MoveJ(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.501397] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:700:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.501560] (fr_ros2) StderrLine: {'line': b'  700 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.501674] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.506288] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:742:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.506618] (fr_ros2) StderrLine: {'line': b'  742 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.506819] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.517986] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::MoveL(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.518311] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:818:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.518447] (fr_ros2) StderrLine: {'line': b'  818 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.518523] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.524235] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:854:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.524557] (fr_ros2) StderrLine: {'line': b'  854 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.524818] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.528611] (fr_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/state_feedback.cpp.o\x1b[0m\n'}
+[18.537433] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::MoveC(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.537751] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:930:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.537957] (fr_ros2) StderrLine: {'line': b'  930 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K || index2 > _cmd_jnt_pos_list.size()){\n'}
+[18.538097] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.538170] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:930:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.538242] (fr_ros2) StderrLine: {'line': b'  930 |         if(index > _cmd_jnt_pos_list.size() || \x1b[01;35m\x1b[Kindex2 > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.538306] (fr_ros2) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.543799] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:986:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.543997] (fr_ros2) StderrLine: {'line': b'  986 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K || index2 > _cmd_cart_pos_list.size()){\n'}
+[18.544083] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.544151] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:986:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.544273] (fr_ros2) StderrLine: {'line': b'  986 |         if(index > _cmd_cart_pos_list.size() || \x1b[01;35m\x1b[Kindex2 > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.544444] (fr_ros2) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.556500] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::Circle(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.556685] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1057:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.556878] (fr_ros2) StderrLine: {'line': b' 1057 | int ROS_API::Circle(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[18.557045] (fr_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.558876] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::SplinePTP(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.559039] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1109:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.559199] (fr_ros2) StderrLine: {'line': b' 1109 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.559372] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.574089] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::NewSplinePoint(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.582479] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1175:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.582687] (fr_ros2) StderrLine: {'line': b' 1175 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[18.582816] (fr_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.699448] (-) TimerEvent: {}
+[19.089379] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ksrv_test_node::srv_test_node(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.098303] (-) TimerEvent: {}
+[19.098588] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:5:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.104283] (fr_ros2) StderrLine: {'line': b'    5 |     static int \x1b[01;35m\x1b[Kcount\x1b[m\x1b[K = 0;\n'}
+[19.105504] (fr_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[19.198658] (-) TimerEvent: {}
+[19.299503] (-) TimerEvent: {}
+[19.401061] (-) TimerEvent: {}
+[19.694261] (-) TimerEvent: {}
+[19.797166] (-) TimerEvent: {}
+[20.213640] (-) TimerEvent: {}
+[20.306120] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.306391] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:5:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.529141] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ROS_API::_send_data_factory_callback(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.529361] (-) TimerEvent: {}
+[20.529522] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:261:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.529721] (fr_ros2) StderrLine: {'line': b'  261 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[20.529895] (fr_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.654327] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string ROS_API::_get_variable(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.654614] (-) TimerEvent: {}
+[20.654863] (fr_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:460:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.655049] (fr_ros2) StderrLine: {'line': b'  460 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[20.655205] (fr_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.805579] (-) TimerEvent: {}
+[21.318856] (fr_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable srv_test_client\x1b[0m\n'}
+[21.319138] (-) TimerEvent: {}
+[21.673585] (fr_ros2) StdoutLine: {'line': b'[ 87%] Built target srv_test_client\n'}
+[21.673892] (-) TimerEvent: {}
+[21.842441] (-) TimerEvent: {}
+[22.779884] (-) TimerEvent: {}
+[23.582646] (-) TimerEvent: {}
+[23.684220] (-) TimerEvent: {}
+[23.785135] (-) TimerEvent: {}
+[23.888017] (-) TimerEvent: {}
+[23.991277] (-) TimerEvent: {}
+[24.092193] (-) TimerEvent: {}
+[24.193888] (-) TimerEvent: {}
+[24.802703] (-) TimerEvent: {}
+[24.904707] (-) TimerEvent: {}
+[25.008286] (-) TimerEvent: {}
+[25.109473] (-) TimerEvent: {}
+[25.213808] (-) TimerEvent: {}
+[25.324073] (-) TimerEvent: {}
+[25.425346] (-) TimerEvent: {}
+[25.451762] (fr_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2_cmd_server\x1b[0m\n'}
+[25.525660] (-) TimerEvent: {}
+[25.628249] (-) TimerEvent: {}
+[25.729217] (-) TimerEvent: {}
+[25.835538] (-) TimerEvent: {}
+[25.939535] (-) TimerEvent: {}
+[25.964593] (fr_ros2) StdoutLine: {'line': b'[100%] Built target ros2_cmd_server\n'}
+[25.989512] (fr_ros2) CommandEnded: {'returncode': 0}
+[26.042020] (-) TimerEvent: {}
+[26.144316] (-) TimerEvent: {}
+[26.198005] (fr_ros2) JobProgress: {'identifier': 'fr_ros2', 'progress': 'install'}
+[26.198113] (fr_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wagnerxavier/ros2_ws/build/fr_ros2'], 'cwd': '/home/wagnerxavier/ros2_ws/build/fr_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wagnerxavier'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wagnerxavier'), ('OLDPWD', '/home/wagnerxavier/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '6136'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wagnerxavier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wagnerxavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/6116,unix/Ubuntu22:/tmp/.ICE-unix/6116'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35066881_49d8_40f5_8969_14575698fc09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UTVDR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wagnerxavier/ros2_ws/build/fr_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble')]), 'shell': False}
+[26.211481] (fr_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.212033] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/ros2_cmd_server\n'}
+[26.215155] (fr_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/ros2_cmd_server" to ""\n'}
+[26.215432] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/srv_test_client\n'}
+[26.216518] (fr_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/srv_test_client" to ""\n'}
+[26.217037] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/package_run_dependencies/fr_ros2\n'}
+[26.218035] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/parent_prefix_path/fr_ros2\n'}
+[26.218135] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/ament_prefix_path.sh\n'}
+[26.218776] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/ament_prefix_path.dsv\n'}
+[26.218883] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/path.sh\n'}
+[26.219253] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/path.dsv\n'}
+[26.219586] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.bash\n'}
+[26.220012] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.sh\n'}
+[26.220302] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.zsh\n'}
+[26.220606] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.dsv\n'}
+[26.220880] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/package.dsv\n'}
+[26.221437] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/packages/fr_ros2\n'}
+[26.221978] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/cmake/fr_ros2Config.cmake\n'}
+[26.222446] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/cmake/fr_ros2Config-version.cmake\n'}
+[26.222727] (fr_ros2) StdoutLine: {'line': b'-- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/package.xml\n'}
+[26.226997] (fr_ros2) CommandEnded: {'returncode': 0}
+[26.244748] (-) TimerEvent: {}
+[26.345343] (-) TimerEvent: {}
+[26.410335] (fr_ros2) JobEnded: {'identifier': 'fr_ros2', 'rc': 0}
+[26.411172] (-) EventReactorShutdown: {}

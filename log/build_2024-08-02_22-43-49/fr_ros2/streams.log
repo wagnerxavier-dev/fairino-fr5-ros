@@ -1,0 +1,166 @@
+[0.030s] Invoking command in '/home/wagnerxavier/ros2_ws/build/fr_ros2': AMENT_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2 -DCMAKE_INSTALL_PREFIX=/home/wagnerxavier/ros2_ws/install/fr_ros2
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.240s] -- The CXX compiler identification is GNU 11.4.0
+[0.260s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.407s] -- Detecting C compile features
+[0.407s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.593s] -- Detecting CXX compile features
+[0.593s] -- Detecting CXX compile features - done
+[0.596s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.837s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.967s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.035s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.042s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.052s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.226s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.232s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.439s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.475s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.561s] -- Looking for pthread.h
+[1.751s] -- Looking for pthread.h - found
+[1.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.900s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.912s] -- Found Threads: TRUE  
+[2.138s] -- Found frhal_msgs: 0.0.0 (/home/wagnerxavier/ros2_ws/install/frhal_msgs/share/frhal_msgs/cmake)
+[2.180s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.288s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.288s] -- Configured cppcheck include dirs: /home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/include/fr_ros2;/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/include
+[2.289s] -- Configured cppcheck exclude dirs and/or files: 
+[2.290s] -- Added test 'lint_cmake' to check CMake code style
+[2.293s] -- Added test 'uncrustify' to check C / C++ code style
+[2.293s] -- Configured uncrustify additional arguments: 
+[2.294s] -- Added test 'xmllint' to check XML markup files
+[2.295s] -- Configuring done
+[2.311s] -- Generating done
+[2.314s] -- Build files have been written to: /home/wagnerxavier/ros2_ws/build/fr_ros2
+[2.325s] Invoked command in '/home/wagnerxavier/ros2_ws/build/fr_ros2' returned '0': AMENT_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2 -DCMAKE_INSTALL_PREFIX=/home/wagnerxavier/ros2_ws/install/fr_ros2
+[2.328s] Invoking command in '/home/wagnerxavier/ros2_ws/build/fr_ros2': AMENT_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wagnerxavier/ros2_ws/build/fr_ros2 -- -j4 -l4
+[2.435s] [ 12%] [32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/main.cpp.o[0m
+[2.435s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/global_val.cpp.o[0m
+[2.448s] [ 37%] [32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/srv_test_client.cpp.o[0m
+[2.450s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/ROS_API.cpp.o[0m
+[3.008s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:297:114:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+[3.009s]   297 | ndData_callback(const std::shared_ptr<frhal_msgs::srv::ROSCmdInterface::Request> req,\
+[3.009s]       |                                                                                       
+[3.009s] 
+[3.327s] [ 62%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/main.cpp.o[0m
+[7.735s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In constructor ‘[01m[KROS_API::ROS_API(std::string)[m[K’:
+[7.735s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:52:56:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ changes value from ‘[01m[K30000[m[K’ to ‘[01m[K48[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[7.747s]    52 |     this->declare_parameter<uint8_t>("gripper_maxtime",[01;35m[K30000[m[K);
+[7.747s]       |                                                        [01;35m[K^~~~~[m[K
+[7.822s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::_def_jnt_position(std::string)[m[K’:
+[7.822s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:350:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.823s]   350 |         if([01;35m[Kidx > _cmd_jnt_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错，因为序列容器中间无法留空
+[7.823s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.823s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:353:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.823s]   353 |         }else if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K){//如果是小于等于当前的容量，那么就是点位信息覆盖
+[7.824s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.824s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:358:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.824s]   358 |         }else if([01;35m[Kidx == _cmd_jnt_pos_list.size()+1[m[K){//添加元素
+[7.824s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.827s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::_def_cart_position(std::string)[m[K’:
+[7.828s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:393:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.828s]   393 |         if([01;35m[Kidx > _cmd_cart_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错，因为序列容器中间无法留空
+[7.828s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.828s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:396:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.829s]   396 |         }else if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K){//如果是小于等于当前的容量，那么就是点位信息覆盖
+[7.829s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.829s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:403:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.829s]   403 |         }else if([01;35m[Kidx == _cmd_cart_pos_list.size()+1[m[K){//添加元素
+[7.830s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.832s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kstd::string ROS_API::_get_variable(std::string)[m[K’:
+[7.833s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:426:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.833s]   426 |             if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K && idx > 0){
+[7.833s]       |                [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.835s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:440:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.836s]   440 |                 if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K && idx > 0){
+[7.836s]       |                    [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.852s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::MoveJ(std::string)[m[K’:
+[7.852s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:700:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.852s]   700 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[7.852s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.857s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:742:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.857s]   742 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[7.857s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.869s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::MoveL(std::string)[m[K’:
+[7.869s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:818:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.869s]   818 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[7.869s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.875s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:854:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.875s]   854 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[7.875s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.879s] [ 75%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/state_feedback.cpp.o[0m
+[7.888s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::MoveC(std::string)[m[K’:
+[7.888s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:930:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.888s]   930 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K || index2 > _cmd_jnt_pos_list.size()){
+[7.889s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.889s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:930:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.889s]   930 |         if(index > _cmd_jnt_pos_list.size() || [01;35m[Kindex2 > _cmd_jnt_pos_list.size()[m[K){
+[7.889s]       |                                                [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.894s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:986:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.894s]   986 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K || index2 > _cmd_cart_pos_list.size()){
+[7.895s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.895s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:986:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.895s]   986 |         if(index > _cmd_cart_pos_list.size() || [01;35m[Kindex2 > _cmd_cart_pos_list.size()[m[K){
+[7.895s]       |                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.907s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::Circle(std::string)[m[K’:
+[7.907s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1057:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.907s]  1057 | int ROS_API::Circle([01;35m[Kstd::string para[m[K){
+[7.908s]       |                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[7.909s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::SplinePTP(std::string)[m[K’:
+[7.910s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1109:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.910s]  1109 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[7.910s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.933s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::NewSplinePoint(std::string)[m[K’:
+[7.933s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:1175:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.933s]  1175 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[7.933s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.449s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:[m[K In constructor ‘[01m[Ksrv_test_node::srv_test_node(std::string)[m[K’:
+[8.453s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.455s]     5 |     static int [01;35m[Kcount[m[K = 0;
+[8.456s]       |                [01;35m[K^~~~~[m[K
+[9.657s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:[m[K At global scope:
+[9.657s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.880s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kint ROS_API::_send_data_factory_callback(std::string)[m[K’:
+[9.880s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:261:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[9.880s]   261 | [01;35m[K}[m[K
+[9.880s]       | [01;35m[K^[m[K
+[10.005s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:[m[K In member function ‘[01m[Kstd::string ROS_API::_get_variable(std::string)[m[K’:
+[10.005s] [01m[K/home/wagnerxavier/ros2_ws/src/frcobot_ros2/fr_ros2/src/ROS_API.cpp:460:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[10.006s]   460 | [01;35m[K}[m[K
+[10.006s]       | [01;35m[K^[m[K
+[10.669s] [ 87%] [32m[1mLinking CXX executable srv_test_client[0m
+[11.024s] [ 87%] Built target srv_test_client
+[14.802s] [100%] [32m[1mLinking CXX executable ros2_cmd_server[0m
+[15.315s] [100%] Built target ros2_cmd_server
+[15.341s] Invoked command in '/home/wagnerxavier/ros2_ws/build/fr_ros2' returned '0': AMENT_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wagnerxavier/ros2_ws/build/fr_ros2 -- -j4 -l4
+[15.549s] Invoking command in '/home/wagnerxavier/ros2_ws/build/fr_ros2': AMENT_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wagnerxavier/ros2_ws/build/fr_ros2
+[15.562s] -- Install configuration: ""
+[15.563s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/ros2_cmd_server
+[15.566s] -- Set runtime path of "/home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/ros2_cmd_server" to ""
+[15.566s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/srv_test_client
+[15.567s] -- Set runtime path of "/home/wagnerxavier/ros2_ws/install/fr_ros2/lib/fr_ros2/srv_test_client" to ""
+[15.568s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/package_run_dependencies/fr_ros2
+[15.569s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/parent_prefix_path/fr_ros2
+[15.569s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/ament_prefix_path.sh
+[15.569s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/ament_prefix_path.dsv
+[15.569s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/path.sh
+[15.570s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/environment/path.dsv
+[15.570s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.bash
+[15.571s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.sh
+[15.571s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.zsh
+[15.571s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/local_setup.dsv
+[15.571s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/package.dsv
+[15.572s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/ament_index/resource_index/packages/fr_ros2
+[15.572s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/cmake/fr_ros2Config.cmake
+[15.573s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/cmake/fr_ros2Config-version.cmake
+[15.573s] -- Installing: /home/wagnerxavier/ros2_ws/install/fr_ros2/share/fr_ros2/package.xml
+[15.578s] Invoked command in '/home/wagnerxavier/ros2_ws/build/fr_ros2' returned '0': AMENT_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wagnerxavier/ros2_ws/install/frhal_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wagnerxavier/ros2_ws/build/fr_ros2

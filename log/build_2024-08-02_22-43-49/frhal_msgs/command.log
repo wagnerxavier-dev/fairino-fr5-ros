@@ -1,0 +1,6 @@
+Invoking command in '/home/wagnerxavier/ros2_ws/build/frhal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wagnerxavier/ros2_ws/src/frcobot_ros2/frhal_msgs -DCMAKE_INSTALL_PREFIX=/home/wagnerxavier/ros2_ws/install/frhal_msgs
+Invoked command in '/home/wagnerxavier/ros2_ws/build/frhal_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wagnerxavier/ros2_ws/src/frcobot_ros2/frhal_msgs -DCMAKE_INSTALL_PREFIX=/home/wagnerxavier/ros2_ws/install/frhal_msgs
+Invoking command in '/home/wagnerxavier/ros2_ws/build/frhal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wagnerxavier/ros2_ws/build/frhal_msgs -- -j4 -l4
+Invoked command in '/home/wagnerxavier/ros2_ws/build/frhal_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wagnerxavier/ros2_ws/build/frhal_msgs -- -j4 -l4
+Invoking command in '/home/wagnerxavier/ros2_ws/build/frhal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wagnerxavier/ros2_ws/build/frhal_msgs
+Invoked command in '/home/wagnerxavier/ros2_ws/build/frhal_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wagnerxavier/ros2_ws/build/frhal_msgs

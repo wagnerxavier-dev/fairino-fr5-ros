@@ -1,0 +1,7 @@
+{
+  "package_name": "frhal_msgs",
+  "non_idl_tuples": [
+    "/home/wagnerxavier/ros2_ws/src/frcobot_ros2/frhal_msgs:srv/ROSCmdInterface.srv",
+    "/home/wagnerxavier/ros2_ws/src/frcobot_ros2/frhal_msgs:msg/FRState.msg"
+  ]
+}

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from frhal_msgs/srv/ROSCmdInterface.srv
+// generated code does not contain a copyright notice
+
+
+module frhal_msgs {
+  module srv {
+    struct ROSCmdInterface_Request {
+      @verbatim (language="comment", text=
+        "ros用户输入的字符串指令，比如movej(p1,100)")
+      string cmd_str;
+    };
+    struct ROSCmdInterface_Response {
+      @verbatim (language="comment", text=
+        "创建结果反馈，0-成功，-1-失败")
+      string cmd_res;
+    };
+  };
+};
